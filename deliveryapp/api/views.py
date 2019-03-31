@@ -9,7 +9,6 @@ class UserList(generics.ListCreateAPIView):
 
     queryset = models.User.objects.all()
     serializer_class = serializers.UserSerializer
-    permissions_classes = (IsAuthenticated, )
 
 
 class UserDetail(generics.RetrieveUpdateDestroyAPIView):
