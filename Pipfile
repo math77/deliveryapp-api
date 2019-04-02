@@ -11,7 +11,7 @@ djangorestframework = "*"
 mysqlclient = "*"
 pillow = "*"
 djangorestframework-jwt = "*"
-django-rest-auth = "*"
+django-filter = "*"
 
 [requires]
 python_version = "3.6"
